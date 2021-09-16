@@ -1,0 +1,245 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* comon css */
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* header */
+header{
+    background-color: #141719;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.header img{
+    width: 130px;
+}
+.header ul{
+    margin: auto;
+}
+.header ul li{
+    display: inline-block;
+}
+
+.header ul li a{
+    color: white;
+    padding: 10px 20px;
+    transition: .4s;
+    position: relative;
+}
+.header ul li a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    bottom: 0;
+    left: 10%;
+}
+.header ul li>a:hover{
+    color: wheat;
+}
+
+/*  */
+section{
+    display: flex;
+    padding-bottom: 50px;
+}
+.item-left{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+
+.item1{
+    width: 400px;
+    height: 300px;
+    border: 1px solid #7FBF7F;
+}
+.item2{
+    width: 400px;
+    height: 300px;
+    border: 1px solid #7FBF7F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item3{
+    width: 400px;
+    height: 300px;
+    border: 1px solid #7FBF7F;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.center1{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.center2{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.center3{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+/*  */
+.text{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.lorem1{
+    flex-basis: 25%;
+    border: 1px solid #7FBF7F;
+    margin-right: 30px;
+    padding: 25px;
+}
+.lorem2{
+    flex-basis: 46%;
+    border: 1px solid #7FBF7F;
+    margin-right: 30px;
+    padding: 25px;
+}
+.lorem3{
+    flex-basis: 25%;
+    border: 1px solid #7FBF7F;
+    padding: 25px;
+}
+/* flex */
+.flex{
+    display: flex;
+}
+
+.flex-item1{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid green;
+    height: 180px;
+    flex-basis: 31.50%;
+}
+
+.flex-btn1{
+    display: flex;
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 40px;
+    border: 1px solid green;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.flex-item2{
+    display: flex;
+    border: 1px solid green;
+    height: 180px;
+    flex-basis: 31.50%;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.flex-btn2{
+    display: flex;
+    background-color: red;
+    color: white;
+    width: 50px;
+    height: 40px;
+    border: 1px solid green;
+    justify-content: center;
+    align-items: center;
+}
+.flex-item3{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid green;
+    height: 180px;
+    flex-basis: 31.50%;
+}
+
+.flex-btn3{
+    display: flex;
+    background-color: red;
+    color: white;
+    padding: 0px 10px;
+    height: 40px;
+    border: 1px solid green;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.exta-btn1{
+    display: flex;
+    align-items: center;
+}
+
+.exta-btn2{
+    display: flex;
+    align-items: flex-end;
+}
+
+/* item-right */
+.item-right{
+    flex-basis: 30%;
+    background-color: #D2D2D2;
+    margin-left: 50px;
+    margin-top: 100px;
+    border-left: 2px solid red;
+}
+
+footer{
+    display: flex;
+    background-color: #141719;
+    justify-content: center;
+    padding: 18px;
+}
+
+footer li{
+    display: inline-block;
+}
+footer li a{
+    color: white;
+    padding: 10px 20px;
+    position: relative;
+}
+footer ul li a::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 80%;
+    background-color: white;
+    bottom: 0;
+    left: 10%;
+}
